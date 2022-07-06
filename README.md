@@ -5,10 +5,15 @@ This repo contains javascript codes implementing pseudo of Data Structure and Al
 Annotated Reference with Examples" copyright °c Granville Barnett, and Luca Del Tongo 2008.
 
 Data Structures
-	Linked Lists 9
+
+2 Linked Lists 9
+  
   2.1 Singly Linked List . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+    
     2.1.1 Insertion . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+    
     2.1.2 Searching . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+    
     2.1.3 Deletion . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
     2.1.4 Traversing the list . . . . . . . . . . . . . . . . . . . . . . 12
     2.1.5 Traversing the list in reverse order . . . . . . . . . . . . . 13
