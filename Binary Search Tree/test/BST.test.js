@@ -42,8 +42,12 @@ for(let node of bst.preOrder(bst.root, 0)){
 //     console.log(`Node: ${node.key}, ${node.value}`)
 // }
 
-console.log('-------Tree" height-----------')
-console.log(`Tree's height = ${bst.getHeight()}`)
+// console.log('-------Tree" height-----------')
+// console.log(`Tree's height = ${bst.getHeight()}`)
 
-console.log('-------Tree: smallest and largest-----------')
-console.log(`[smallest, largest] = (${bst.getSmallest().key}, ${bst.getLargest().key})`)
+// console.log('-------Tree: smallest and largest-----------')
+// console.log(`[smallest, largest] = (${bst.getSmallest().key}, ${bst.getLargest().key})`)
+
+console.log('-------Contain-----------')
+console.log(`Contain 15 ? ${bst.contain(15)}`)
+console.log(`Contain 17 ? ${bst.contain(17)}`)

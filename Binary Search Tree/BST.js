@@ -24,6 +24,23 @@ export default class BST {
             } 
         }
     }
+    contain(key) {
+        return search(this.root, key)
+        function search(root, key) {
+            if(root == null)
+                return false
+            if(root.equalWith(key))
+                return true
+            else if(key < root.key)
+                return search(root.left, key)
+            else 
+                return search(root.right, key)
+        }
+    }
+    findParentOf(root ,key){
+ 
+    }
+
     traversePreorder() {
         return this.preOrder(this.root)
     }
